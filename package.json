@@ -1,0 +1,15 @@
+{
+  "name": "web-prototyping-101",
+  "version": "1.0.0",
+  "description": "Get started with web prototyping! Woo!",
+  "main": "",
+  "scripts": {
+    "sass": "sass --watch src/css/style.scss:src/css/style.css",
+    "local": "http-server -p 4000"
+  },
+  "author": "Chris Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.7.4"
+  }
+}
