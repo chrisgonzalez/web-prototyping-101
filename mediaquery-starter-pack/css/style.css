@@ -1,0 +1,26 @@
+.mq {
+	display: none;
+}
+
+/* large size */
+@media (min-width: 56em) {
+	.mq.large {
+		display: block;
+	}
+}
+
+/* medium size */
+
+@media (min-width: 38em) and (max-width: 56em) {
+	.mq.medium {
+		display: block;
+	}
+}
+
+/* small size */
+
+@media (max-width: 38em) {
+	.mq.small {
+		display: block;
+	}
+}
