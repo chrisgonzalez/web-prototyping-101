@@ -1,6 +1,6 @@
 # Web Prototyping 101
 
-The files contained heretofore provide some really simple starting places for creating web prototypes. All directories contain a starter javascript, css, and html file, as well as a copy of jQuery so you can work locally.
+The files contained herein provide some really simple starting places for creating web prototypes. All directories contain a starter javascript, css, and html file, as well as a copy of jQuery so you can work locally.
 
 ### Blank Starter Pack
 
