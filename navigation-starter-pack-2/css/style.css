@@ -1,0 +1,35 @@
+nav {
+	padding: 1em;
+	background: #004276;
+}
+
+nav:hover > a {
+	color: #ffffff;
+}
+
+nav a {
+	text-decoration: none;
+	color: #cc0000;
+	font-weight: bold;
+
+	transition: color .3s;
+}
+
+nav a + a {
+	margin-left: 1em;
+}
+
+.sub-nav {
+	max-height: 0;
+	overflow: hidden;
+
+	transition: max-height .3s;
+}
+
+nav.open .sub-nav {
+	max-height: 5em;
+}
+
+main {
+	padding: 1em;
+}
